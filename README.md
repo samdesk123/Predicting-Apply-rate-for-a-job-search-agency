@@ -1,9 +1,8 @@
 # Predicting-Apply-rate-for-a-job-search-agency
-#Introduction
-
+# Introduction
 The problem of interest is the prediction of apply rate. Imagine a user visiting a website, and performing a job search. From the set of displayed results, user clicks on certain ones that she is interested in, and after checking job descriptions, she further clicks on apply button therein to land in to an application page. The apply rate is defined as the fraction of applies (after visiting job description pages), and the goal is to predict this metric using the dataset described in the following section.
 
-#Dataset
+# Dataset
 
 Each row in the dataset corresponds to a user’s view of a job listing. It has 10 columns as described below.
 
@@ -17,7 +16,7 @@ job age days: Indicates the age of job listing posted.
 apply: Indicates if the user has applied for this job listing.
 search date pacific: Date of the activity.
 class id: Class ID of the job title clicked.
-#Analysis
+# Analysis
 
 Please use the “search date pacific” column (9-th column) to split the dataset into training and test dataset. Train your model(s) using the data between 01/21/2018-01/26/2018, and test your model on 01/27/2018. Split the analysis into two parts:
 
